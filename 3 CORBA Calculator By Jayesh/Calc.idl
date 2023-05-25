@@ -1,0 +1,6 @@
+module Calculator {
+    interface Calc {
+        long calculate (in long opcode, in long op1, in long op2);
+        oneway void exit();
+    };
+};
